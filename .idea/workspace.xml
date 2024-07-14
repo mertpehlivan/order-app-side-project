@@ -5,100 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8c641e-f3f8-4f5a-a645-f58fbf326265" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/email/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/email/EmailTemplates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/order/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/order/OrderConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/order/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/payment/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/payment/PaymentConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/payment/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/notification/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/notification/NotificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/templates/order-confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/templates/payment-confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/config/KafkaOrderTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/customer/CustomerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/kafka/OrderConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/kafka/OrderProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/payment/PaymentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/payment/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/product/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/product/PurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/product/PurchaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/config/KafkaPaymentTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/notification/NotificationProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/notification/PaymentNotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductPurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductPurchaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/exception/ProductPurchaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +67,7 @@
     "Spring Boot.OrderApplication.executor": "Debug",
     "Spring Boot.PaymentApplication.executor": "Debug",
     "Spring Boot.ProductApplication.executor": "Debug",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mertp/Desktop/Projeler/RawDataLibrary/server3/e-commerce-app/notification/pom.xml",
@@ -319,7 +226,7 @@
       <workItem from="1720698064048" duration="9926000" />
       <workItem from="1720771993715" duration="14640000" />
       <workItem from="1720883754509" duration="2666000" />
-      <workItem from="1720958372532" duration="12604000" />
+      <workItem from="1720958372532" duration="12959000" />
     </task>
     <servers />
   </component>
