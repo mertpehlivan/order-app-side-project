@@ -1,0 +1,6 @@
+server:
+  port: 8090
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mertdev:mertdev@mongo:27017/customer?authSource=admin&readPreference=primaryPreferred&directConnection=true

@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Mechanical Keyboard 1",
+    "description": "Mechanical keyboard with RGB lighting",
+    "availableQuantity": 10.0,
+    "price": 99.99,
+    "categoryId": 1,
+    "categoryName": "Keyboards",
+    "categoryDescription": "Computer Keyboards"
+  },
+  {
+    "id": 51,
+    "name": "Wireless Compact Keyboard 1",
+    "description": "Wireless compact keyboard",
+    "availableQuantity": 15.0,
+    "price": 79.99,
+    "categoryId": 1,
+    "categoryName": "Keyboards",
+    "categoryDescription": "Computer Keyboards"
+  },
+  {
+    "id": 101,
+    "name": "Gaming Keyboard 1",
+    "description": "Backlit gaming keyboard with customizable keys",
+    "availableQuantity": 20.0,
+    "price": 129.99,
+    "categoryId": 1,
+    "categoryName": "Keyboards",
+    "categoryDescription": "Computer Keyboards"
+  },
+  {
+    "id": 151,
+    "name": "Ergonomic Keyboard 1",
+    "description": "Mechanical keyboard with wrist rest",
+    "availableQuantity": 25.0,
+    "price": 109.99,
+    "categoryId": 1,
+    "categoryName": "Keyboards",
+    "categoryDescription": "Computer Keyboards"
+  },
+  {
+    "id": 201,
+    "name": "Wireless Combo 1",
+    "description": "Wireless keyboard and mouse combo",
+    "availableQuantity": 18.0,
+    "price": 69.99,
+    "categoryId": 1,
+    "categoryName": "Keyboards",
+    "categoryDescription": "Computer Keyboards"
+  },
+  {
+    "id": 251,
+    "name": "4K Monitor 1",
+    "description": "27-inch IPS monitor with 4K resolution",
+    "availableQuantity": 30.0,
+    "price": 399.99,
+    "categoryId": 51,
+    "categoryName": "Monitors",
+    "categoryDescription": "Computer Monitors"
+  },
+  {
+    "id": 301,
+    "name": "Ultra-wide Gaming Monitor 1",
+    "description": "Ultra-wide gaming monitor with HDR support",
+    "availableQuantity": 25.0,
+    "price": 499.99,
+    "categoryId": 51,
+    "categoryName": "Monitors",
+    "categoryDescription": "Computer Monitors"
+  },
+  {
+    "id": 351,
+    "name": "Office Monitor 1",
+    "description": "24-inch LED monitor for office use",
+    "availableQuantity": 22.0,
+    "price": 179.99,
+    "categoryId": 51,
+    "categoryName": "Monitors",
+    "categoryDescription": "Computer Monitors"
+  },
+  {
+    "id": 401,
+    "name": "Curved Monitor 1",
+    "description": "32-inch curved monitor with AMD FreeSync",
+    "availableQuantity": 28.0,
+    "price": 329.99,
+    "categoryId": 51,
+    "categoryName": "Monitors",
+    "categoryDescription": "Computer Monitors"
+  },
+  {
+    "id": 451,
+    "name": "Portable Monitor 1",
+    "description": "Portable USB-C monitor for laptops",
+    "availableQuantity": 35.0,
+    "price": 249.99,
+    "categoryId": 51,
+    "categoryName": "Monitors",
+    "categoryDescription": "Computer Monitors"
+  },
+  {
+    "id": 501,
+    "name": "Curved OLED Gaming Screen 1",
+    "description": "Curved OLED gaming screen with 240Hz refresh rate",
+    "availableQuantity": 15.0,
+    "price": 799.99,
+    "categoryId": 101,
+    "categoryName": "Screens",
+    "categoryDescription": "Display Screens"
+  },
+  {
+    "id": 551,
+    "name": "QLED Monitor 1",
+    "description": "Flat QLED monitor with 1440p resolution",
+    "availableQuantity": 18.0,
+    "price": 599.99,
+    "categoryId": 101,
+    "categoryName": "Screens",
+    "categoryDescription": "Display Screens"
+  },
+  {
+    "id": 601,
+    "name": "Touch Screen Display 1",
+    "description": "27-inch touch screen display for creative work",
+    "availableQuantity": 22.0,
+    "price": 699.99,
+    "categoryId": 101,
+    "categoryName": "Screens",
+    "categoryDescription": "Display Screens"
+  },
+  {
+    "id": 651,
+    "name": "Ultra-slim 4K HDR Display 1",
+    "description": "Ultra-slim 4K HDR display for multimedia",
+    "availableQuantity": 20.0,
+    "price": 449.99,
+    "categoryId": 101,
+    "categoryName": "Screens",
+    "categoryDescription": "Display Screens"
+  },
+  {
+    "id": 701,
+    "name": "Gaming Projector 1",
+    "description": "Gaming projector with low input lag",
+    "availableQuantity": 25.0,
+    "price": 899.99,
+    "categoryId": 101,
+    "categoryName": "Screens",
+    "categoryDescription": "Display Screens"
+  },
+  {
+    "id": 751,
+    "name": "RGB Gaming Mouse 1",
+    "description": "Wireless gaming mouse with customizable RGB lighting",
+    "availableQuantity": 30.0,
+    "price": 59.99,
+    "categoryId": 151,
+    "categoryName": "Mice",
+    "categoryDescription": "Computer Mice"
+  },
+  {
+    "id": 801,
+    "name": "Ergonomic Wired Mouse 1",
+    "description": "Ergonomic wired mouse for productivity",
+    "availableQuantity": 28.0,
+    "price": 29.99,
+    "categoryId": 151,
+    "categoryName": "Mice",
+    "categoryDescription": "Computer Mice"
+  },
+  {
+    "id": 851,
+    "name": "Ambidextrous Gaming Mouse 1",
+    "description": "Ambidextrous gaming mouse with high DPI",
+    "availableQuantity": 32.0,
+    "price": 69.99,
+    "categoryId": 151,
+    "categoryName": "Mice",
+    "categoryDescription": "Computer Mice"
+  },
+  {
+    "id": 901,
+    "name": "Travel Mouse 1",
+    "description": "Travel-sized compact mouse for laptops",
+    "availableQuantity": 26.0,
+    "price": 19.99,
+    "categoryId": 151,
+    "categoryName": "Mice",
+    "categoryDescription": "Computer Mice"
+  },
+  {
+    "id": 951,
+    "name": "Vertical Ergonomic Mouse 1",
+    "description": "Vertical ergonomic mouse for reduced strain",
+    "availableQuantity": 35.0,
+    "price": 39.99,
+    "categoryId": 151,
+    "categoryName": "Mice",
+    "categoryDescription": "Computer Mice"
+  },
+  {
+    "id": 1001,
+    "name": "Adjustable Laptop Stand 1",
+    "description": "Adjustable laptop stand with cooling fan",
+    "availableQuantity": 25.0,
+    "price": 34.99,
+    "categoryId": 201,
+    "categoryName": "Accessories",
+    "categoryDescription": "Computer Accessories"
+  },
+  {
+    "id": 1051,
+    "name": "Wireless Charging Pad 1",
+    "description": "Wireless charging pad for smartphones",
+    "availableQuantity": 20.0,
+    "price": 24.99,
+    "categoryId": 201,
+    "categoryName": "Accessories",
+    "categoryDescription": "Computer Accessories"
+  },
+  {
+    "id": 1101,
+    "name": "RGB Headset Stand 1",
+    "description": "Gaming headset stand with RGB lighting",
+    "availableQuantity": 28.0,
+    "price": 49.99,
+    "categoryId": 201,
+    "categoryName": "Accessories",
+    "categoryDescription": "Computer Accessories"
+  },
+  {
+    "id": 1151,
+    "name": "Bluetooth Keypad 1",
+    "description": "Bluetooth mechanical keypad for tablets",
+    "availableQuantity": 22.0,
+    "price": 39.99,
+    "categoryId": 201,
+    "categoryName": "Accessories",
+    "categoryDescription": "Computer Accessories"
+  },
+  {
+    "id": 1201,
+    "name": "External Hard Drive Enclosure 1",
+    "description": "External hard drive enclosure with USB-C",
+    "availableQuantity": 30.0,
+    "price": 29.99,
+    "categoryId": 201,
+    "categoryName": "Accessories",
+    "categoryDescription": "Computer Accessories"
+  }
+]

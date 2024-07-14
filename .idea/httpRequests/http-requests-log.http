@@ -1,0 +1,19 @@
+POST http://localhost:8050/api/v1/products
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-07-14T162012.400.json
+
+###
+
+GET http://localhost:8050/api/v1/products
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-07-14T161922.200.json
+
+###
+

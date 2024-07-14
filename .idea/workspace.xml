@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c8c641e-f3f8-4f5a-a645-f58fbf326265" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/notification-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/payment-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/mertdev/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/email/EmailTemplates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/NotificationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/order/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/order/OrderConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/order/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/payment/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/payment/PaymentConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/kafka/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/mertdev/ecommerce/notification/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/templates/order-confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/templates/payment-confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/config/KafkaOrderTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/customer/CustomerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/customer/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/kafka/OrderConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/kafka/OrderProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/order/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/orderline/OrderLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/payment/PaymentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/payment/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/product/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/product/PurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/mertdev/ecommerce/product/PurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/config/KafkaPaymentTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/notification/NotificationProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/notification/PaymentNotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/src/main/java/com/mertdev/ecommerce/payment/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductPurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductPurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/exception/ProductPurchaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/mertdev/ecommerce/product/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2iCjibWCAiOJRrL85g78m5f7U77" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in generated-requests.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "Maven.customer [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigServerApplication.executor": "Debug",
+    "Spring Boot.CustomerApplication.executor": "Debug",
+    "Spring Boot.DiscoveryApplication.executor": "Debug",
+    "Spring Boot.GatewayApplication.executor": "Debug",
+    "Spring Boot.NotificationApplication.executor": "Debug",
+    "Spring Boot.OrderApplication.executor": "Debug",
+    "Spring Boot.PaymentApplication.executor": "Debug",
+    "Spring Boot.ProductApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mertp/Desktop/Projeler/RawDataLibrary/server3/e-commerce-app/notification/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mertdev.ecommerce.kafka.order" />
+      <recent name="com.mertdev.ecommerce.kafka.payment" />
+      <recent name="com.mertdev.ecommerce.kafka" />
+      <recent name="com.mertdev.ecommerce.notification" />
+      <recent name="com.mertdev.ecommerce.payment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mertp\Desktop\Projeler\RawDataLibrary\server3\e-commerce-app\order\src\main\java\com\mertdev\ecommerce" />
+      <recent name="C:\Users\mertp\Desktop\Projeler\RawDataLibrary\server3\e-commerce-app\product\src\main\java\com\mertdev\ecommerce\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mertp\Desktop\Projeler\RawDataLibrary\server3\e-commerce-app\" />
+      <recent name="C:\Users\mertp\Desktop\Projeler\RawDataLibrary\server3\e-commerce-app" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mertdev.ecommerce.kafka.payment" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mertdev.ecommerce.exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.configserver.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mertdev.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.ecommerce.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.ecommerce.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.ecommerce.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.ecommerce.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mertdev.ecommerce.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c8c641e-f3f8-4f5a-a645-f58fbf326265" name="Changes" comment="" />
+      <created>1719001582665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719001582665</updated>
+      <workItem from="1719001583836" duration="3886000" />
+      <workItem from="1719047055768" duration="9295000" />
+      <workItem from="1719136936114" duration="14665000" />
+      <workItem from="1719269849105" duration="26000" />
+      <workItem from="1719328434164" duration="1053000" />
+      <workItem from="1720007348462" duration="1511000" />
+      <workItem from="1720086131543" duration="1095000" />
+      <workItem from="1720108032883" duration="5609000" />
+      <workItem from="1720299991271" duration="19551000" />
+      <workItem from="1720424814380" duration="831000" />
+      <workItem from="1720435189210" duration="11702000" />
+      <workItem from="1720564213442" duration="3448000" />
+      <workItem from="1720605565354" duration="9255000" />
+      <workItem from="1720698064048" duration="9926000" />
+      <workItem from="1720771993715" duration="14640000" />
+      <workItem from="1720883754509" duration="2666000" />
+      <workItem from="1720958372532" duration="12604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
